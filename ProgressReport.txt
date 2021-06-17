@@ -45,5 +45,6 @@ git merge branchname -> combine the current active branch with the entered branc
 
 git push
 --> push to remote repository or upload Git commits
--- extension to command -- 
-git push -u remotebranchname currentbranch -> creates an upstream tracking connection (usually done if publishing local branch to remote for the first time)
+-- extension to command --
+git push origin branchname -> push to remote repository
+git push -u origin branchname -> creates an upstream tracking connection (usually done if publishing local branch to remote for the first time)
