@@ -48,3 +48,6 @@ git push
 -- extension to command --
 git push origin branchname -> push to remote repository
 git push -u origin branchname -> creates an upstream tracking connection (usually done if publishing local branch to remote for the first time)
+
+git pull
+--> get latest changes from remote repository or download changes from remote to local
