@@ -58,3 +58,11 @@ git clone
 git clone link -> clone the repository from the link provided to local machine
 -- can clone any repository --
 
+git fetch
+--> get changes from remote repository and store in separate branch to local repository
+-- git pull = git fetch + git merge --
+-- fetch is a safer option in terms of reviewing commits before actual integration to the local repository --
+-- extension to command --
+git fetch origin -> fetches all branches that the local machine currently does not have
+git fetch origin branchname:branchname -> fetch specific branch
+
