@@ -66,3 +66,5 @@ git fetch
 git fetch origin -> fetches all branches that the local machine currently does not have
 git fetch origin branchname:branchname -> fetch specific branch
 
+Fork
+--> rough copy repository and allows performing changes
