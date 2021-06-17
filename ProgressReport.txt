@@ -1,0 +1,49 @@
+Commands Learned so far:
+
+git init
+--> create a new Git repository or convert existing project to Git repository
+-- usually the first thing to do
+
+touch filename.filetype
+--> create file
+
+git status
+--> shows the current state or staging area, indicates and tracks changes
+-- helpful when performing other commands
+
+git add
+--> adds changes made in the directory to the staging area
+-- extension to command --
+-> git add *.filetype --> add all files with the same filetype
+-> git add . --> add all files
+
+git commit
+--> perform changes in index or save files or changes
+--> holds and displays the changes to the local repository 
+--> aka provides a snapshot 
+-- extension to command --
+-> git commit -m 'Enter comment' --> shortcut for instantly putting comments and avoiding the comment screen
+-> git commit -am 'Enter comment' --> add and commit at the same time but only works for changes on existing files
+
+git branch
+--> displays the branches (asterisk means that it is the active branch)
+-- extension to command --
+git branch branchname --> creates a new branch
+git branch -d branchname --> delete a branch
+
+git checkout
+--> switch branches
+-- extension to command --
+git checkout branchname -> switch to branch
+git checkout -b branchname -> create a branch and switch to it
+
+git merge
+--> combine branches
+-- extension to command --
+git merge branchname -> combine the current active branch with the entered branchname
+-- merging branches does not delete the other branch
+
+git push
+--> push to remote repository or upload Git commits
+-- extension to command -- 
+git push -u remotebranchname currentbranch -> creates an upstream tracking connection (usually done if publishing local branch to remote for the first time)
