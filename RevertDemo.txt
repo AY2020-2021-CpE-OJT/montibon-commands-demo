@@ -1,3 +1,1 @@
 This is revert demo and contains only this line of text
-
-This is another line and needs to be reverted
