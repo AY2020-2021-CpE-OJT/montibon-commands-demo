@@ -1,1 +1,1 @@
-This is revert demo
+This is revert demo and contains only this line of text
