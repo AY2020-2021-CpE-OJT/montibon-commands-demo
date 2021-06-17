@@ -51,3 +51,10 @@ git push -u origin branchname -> creates an upstream tracking connection (usuall
 
 git pull
 --> get latest changes from remote repository or download changes from remote to local
+
+git clone
+--> copy repository into a new directory (usually from remote repository like from Github to local machine)
+-- extension to command --
+git clone link -> clone the repository from the link provided to local machine
+-- can clone any repository --
+
